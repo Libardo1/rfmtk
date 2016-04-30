@@ -1,4 +1,4 @@
-# rfmtk.py: RMF analytics for Python
+# rfmtk.py: Python RMF analytics toolkit
 def rfm(data, user_id, today, date, checkout_id, price):
     # user_id: User ID column for group-by aggregation
     # today: E.g. '2016/04/01'
