@@ -1,7 +1,7 @@
 # rfmtk.py: Python RMF analytics toolkit
 import pandas as pd
 
-def rfm(data, user_id='member_id', today, date, checkout_id, price):
+def rfm(data, today, date, checkout_id, price, user_id='member_id'):
     # user_id: User ID column for group-by aggregation
     # today: E.g. '2016/04/01'
     # date: Date column for calculating recency
